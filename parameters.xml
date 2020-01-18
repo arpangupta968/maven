@@ -1,0 +1,6 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/demoitrain_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Program\ Files\ \(x86\)\\Jenkins\\workspace\\test\\demoitrain\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Program\ Files\ \(x86\)\\Jenkins\\workspace\\test\\demoitrain\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
